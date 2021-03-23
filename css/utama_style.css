@@ -1,0 +1,219 @@
+	body {
+		margin: 0;
+		padding: 0;
+		background: rgb(248, 248, 248);
+	}
+
+	.container1 {
+		padding-bottom: 0;
+	}
+
+	.container {
+		background-color: #333;
+		padding-bottom: 50px;
+		margin-top: -35px;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+
+	table {
+		border-collapse:separate;
+		font: normal normal 12px Verdana,Arial,sans-serif;
+		color:#333;
+		table-layout: fixed;
+		outline: 0;
+		margin-left: 50px;
+	}
+
+	table th {
+		background:silver;
+		color:grey;
+		font-weight:bold;
+		font-size: 14px;
+	}
+
+	table th,
+	table td {
+		vertical-align: baseline;
+		padding:5px 10px;
+		
+	}
+
+	table tr {
+		background:#eaeaea;
+	}
+
+	table tr:nth-child(even) {
+		background: #f2f2f2;
+	}
+
+	.cari {
+		float: right;
+		margin-right: 25px;
+		margin-top: 20px;
+		
+	}
+
+	header h1 {
+	float: left;
+	padding: 15px 0;
+	margin-left: 24px;
+	margin-top: 0px;
+	}
+
+	header a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	header ul {
+	float: right;
+	}
+
+	header ul li {
+	display: inline-block;
+	margin-top: 0px;
+	}
+
+	header ul li a {
+	padding: 25px 20px;
+	}
+
+	header ul li a:hover {
+		color: grey;
+		transition: 0.5;
+	}
+
+	.tambah {
+		float: right;
+		margin-right: 140px;
+		background-color: #333;
+		font-weight: bold;
+		width: 100px;
+		height: 20px;
+	}
+
+	.tambah a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.tambah a:hover {
+		color: grey;
+		transition: 0.5;
+	}
+
+	footer {
+	background-color: rgb(150, 150, 150);
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	margin-top: 60px;
+	}
+
+	nav ul li {
+		display: inline-block;
+		font-weight: bold;
+		margin-left: 10px;
+		padding-top: 24px
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.container3 {
+		width:80%;
+		background: #fff;
+		margin-left: 15px;
+		margin-top: 12px;
+		border-top: 5px solid grey;
+	}
+
+	.line {
+		display: block;
+		width: 200px;
+		border: 1px solid #eaeaea;
+		margin-top: 100px;
+	}
+
+	.about {
+		text-align: center;
+		color: #bdbdbd;
+		margin: 50px;
+	}
+
+
+	form {
+		width:130px;
+	}
+
+	.search {
+		padding:8px 15px; 
+		background: #fafafa; 
+		border:2px solid silver;
+		margin-top: 100px;
+		opacity: 0.5;
+		margin-right: 0px;
+	}
+
+	.button {
+		position:relative;
+		left:-4px;          
+		padding:10px 15px; 
+		border:0px solid silver;          
+		background-color: #c50202; 
+		color:#fafafa;
+		font-weight:bold;
+	}
+
+	.button:hover {
+		background: #008080;          
+		color:#fafafa;
+	}
+
+	.button:active {
+		background:#9ACD32;
+	}
+
+
+	iframe {
+		margin-left: 400px;
+	}
+
+	#deskripsi p {
+		float: right;
+		color: gray;
+		text-align: right;
+		padding-top: 10px;
+		margin-top: 220px;
+		margin-right: -240px;
+		word-spacing: 5px;
+	}
+
+	.pertamina img{
+		width: 240px;
+		height: 190px;
+		float: right;
+		margin-top: 14px;
+		margin-right: 5px;
+		border: 3px solid #fff;
+		display: flex;
+	}
+
+	#hotline img p{
+		width: 290px;
+		float:right;
+		margin-top: 47%;
+		border: 3px solid #fff;
+		margin-right: -300px;
+	}
+
+	.logo img{
+		width: 100%;
+		height: 100px;
+		border-bottom: 5px solid red;
+		border-top: 5px solid blue;
+		margin-bottom: 40px;
+	}
